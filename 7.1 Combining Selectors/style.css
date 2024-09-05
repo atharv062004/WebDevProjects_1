@@ -1,0 +1,32 @@
+/* Write your code here: */
+
+/* Group h1 and h2 to bluevoilet {use commas} */
+
+h1, h2{
+        color: blueviolet;
+}
+
+/* child grouping  {use grater then sign}*/
+
+.box > .done{
+        color: firebrick;
+}
+
+/* descendent */
+
+.box ul{
+        color: blue;
+}
+
+/* chaning */
+
+li.done{
+        color: seagreen;
+}
+
+/* combining combiners */
+
+ul > p.done{
+/* we can also ignore the > sign if we want or p is direct child of the ul and it the grand or grate grand child or more */
+        font-size: 0.5rem
+}
